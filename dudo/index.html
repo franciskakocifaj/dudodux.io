@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DUDODUX</title>
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   mybutton.style.display = "block";
+ } else {
+   mybutton.style.display = "none";
+ }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+ document.body.scrollTop = 0; // For Safari
+ document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+  </head>
+  <body>
+  <header>
+    <h1>X-MAS gift</h1>
+    <p>Ovo je mali blog u kojem ću svaki dan pisati nešto o tebi/ili što ti želim reći.</p>
+      <audio controls autoplay src="song.mp3"> </audio>
+  </header>
+<br>
+
+
+  <!-- dan prvi -->
+ <section id="dan1">
+   <h2>6.12.2020. Dan prvi</h2>
+   <h3>Funny things</h3>
+
+ <ul>
+   <li>Volim te !</li>
+   <li>Volim te više od pive!</li>
+   <li>Imam pive u frižideru!</li>
+   <li>Obožavam tvoje loše fore.</li>
+   <li>ipak si ti glavni, makar sam ja štefica.</li>
+ </ul>
+
+ </section>
+
+ <br>
+  <img src="mim.jpeg"  width="450" height="250">
+<br>
+<br>
+<br>
+
+<!-- dan drugi -->
+
+<section id="dan1">
+
+  <h2>7.12.2020. Dan drugi </h2>
+  <h3>Kak smo sladak par</h3>
+
+  <p> Danas sam ti odlićila reći zašto smo mi savršen par uz par fotopriloga.
+                                 <br>
+    Osim što smo na prvi pogled predivan par, ima tu mnogo toga više.
+    Naš nepopravljiv smisao za humor, hoby-i,
+    planovi za budučnost i duhovna kompatibilnost čini nas bas idealnim parom </p>
+<br>
+    <img src="slika1.jpg"  width="600" height="800">
+    <br>
+    <img src="slika2.jpeg"  width="450" height="800">
+    <br>
+    <img src="slika3.jpg"  width="385" height="800">
+    <br>
+    <img src="slika4.jpg"  width="800" height="385">
+
+</sectin>
+<br>
+<br>
+<br>
+<!-- dan treći -->
+
+<section id="dan3">
+
+  <h2>8.12.2020. Dan treći </h2>
+  <h3>Glazbena podrška</h3>
+  <p>Par pjesmica koje povezujem s tobom</p>
+  <iframe src="" name="iframe" title="iframe"></iframe>
+    <p><a href="https://www.youtube-nocookie.com/embed/5UjOj_oJN6w" target="iframe">link1</a></p>
+    <p><a href="https://www.youtube-nocookie.com/embed/BVYylANLIiE" target="iframe">link1</a></p>
+    <p><a href="https://www.youtube-nocookie.com/embed/1Mj8EtdQPI0" target="iframe">link1</a></p>
+    <p><a href="https://www.youtube-nocookie.com/embed/jgxs7PWlDqM" target="iframe">link1</a></p>
+    <p><a href="https://www.youtube-nocookie.com/embed/2pfLE5YJ1Fo" target="iframe">link1</a></p>
+  </section>
+  <br>
+  <br>
+  <br>
+    <!-- dan četvrti -->
+
+    <section id="dan4">
+
+      <h2>9.12.2020. Dan četvrti </h2>
+      <h3>Ideje za date</h3>
+      <p>Dizajniraj savršeni date već danas, jer zašto bi baš uvijek sve bilo po mom!</p>
+
+     <div class="form">
+
+     <form action="mailto:kocifajf@gmil.com" method="post" enctype="text/plain" accept-charset="UTF-8" autocomplete>
+
+     <label for="dan">Dan datea</label>
+     <input type="text" id="dan" placeholder="Dan kad se vidimo" autofocus required>
+     <br>
+     <br>
+
+     <label for="datum">Datum datea</label>
+     <input type="text" id="datum" placeholder="00.00" autofocus required>
+     <br>
+     <br>
+     <label for="vrijeme">Vrijeme</label>
+     <input type="text" id="vrijeme"placeholder="00:00" autofocus required>
+     <br>
+     <br>
+
+     <fieldset>
+        <legend>Odaberi moguću lokaciju</legend>
+        <input type="radio" value="menza" id="menza" name="lokacija"><label for="menza">Menza</label>
+        <input type="radio" value="slasticarna" id="slasticarna" name="lokacija"><label for="slasticarna" >Slastičarna</label>
+        <input type="radio" value="kafic" id="kafic" name="lokacija"><label for="kafic">Kafić</label>
+        <input type="radio" value="krivi" id="krivi" name="lokacija"><label for="krivi">Krivi Put</label>
+        <input type="radio" value="soba" id="soba" name="lokacija"><label for="soba">Soba</label>
+
+     </fieldset>
+     <br>
+
+      <label for="izbor">Odaberi vibe datea</label>
+      <select name="izbor">
+
+       <option>Chill</option>
+       <option>Aktivan</option>
+       <option>Maženje</option>
+       <option>Nešto novo po tvojem izboru</option>
+      </select>
+      <br>
+      <br>
+
+      <label for="izbor">Odaberi piće</label>
+      <select name="izbor">
+
+      <option>Pivo</option>
+      <option>Kava</option>
+      <option>Čaj</option>
+      <option>Nešto novo po tvojem izboru</option>
+      </select>
+      <br>
+
+      <input type="submit" value="Prihvati">
+            <input type="reset" value="Poništi">
+
+     </div>
+     </form>
+  </section>
+  <br>
+  <br>
+  <br>
+  <!-- dan peti -->
+
+  <section id="dan5">
+
+    <h2>10.12.2020. Dan peti </h2>
+    <h3>Meme day</h3>
+    <br>
+    <img src="mim2.jpeg"  width="540" height="655.5">
+    <br>
+    <br>
+      <img src="mim3.jpeg"  width="540" height="559">
+      <br>
+      <br>
+        <img src="mim4.jpeg"  width="540" height="671">
+        <br>
+        <br>
+          <img src="mim5.jpeg"  width="540" height="528.5">
+          <br>
+          <br>
+            <img src="mim6.jpeg"  width="540" height"660.5">
+            <br>
+            <br>
+              <img src="mim7.jpeg"  width="540" height="559">
+</section>
+<br>
+<br>
+<br>
+
+<!-- dan sesti -->
+
+<section id="dan6">
+
+  <h2>11.12.2020. Dan šesti </h2>
+  <h3>Receptichy </h3>
+  <p>Brzi i jednostavni recepti za kuhara u usponu !</p>
+<a href="https://www.coolinarika.com/recept/1045387/">energetske pločice</a>
+<br>
+<a href="https://www.coolinarika.com/recept/mini-palacinke-bez-brasna/">palačinke</a>
+<br>
+<a href="https://budi-fit.hr/zdravi-recepti/zdrava-prehrana/sataras-sa-zitaricama">satraš</a>
+<br>
+<a href="https://budi-fit.hr/zdravi-recepti/zdrava-prehrana/marinada-za-piletinu">marinada za piletinu</a>
+<br>
+<a href="https://budi-fit.hr/zdravi-recepti/zdrava-prehrana/budi-fit-topli-sendvici">topli sendvići</a>
+<br>
+<a href="https://www.tvornicazdravehrane.com/recepti/otkrili-smo-tajnu-savrsenog-kuhanog-vina-68713/">kuhano vino</a>
+<br>
+<a href="https://www.tvornicazdravehrane.com/recepti/zdravi-recepti-koji-ce-uljepsati-mjesec-studeni-68427/">topla jela</a>
+
+</section>
+<br>
+<br>
+<br>
+
+<!--dan sedmi--->
+
+<section id="dan7">
+  <h2>12.12.2020. Dan sedmi </h2>
+  <h3> Ispovjest </h3>
+  <p> Danas sam odlučila pustiti srcu i duši da se izraze.
+    <br>
+     Kada sam te upoznala nisam ni mogla zamisliti da ću biti ovdje.
+     <br>
+    Još više mi je nevjerojatno kako me osvojio catfish hahahah.
+    <br>
+   Neka, drago mi je i to jako! Hvala ti što si mi zaokrenuo svijet za 180 stupnjeva.
+   <br>
+    Nisam ni sanjala da mogu biti ovoloko sretna i voljena.
+    <br>
+ Žao mi je što se nekada čini kao da ti ne vjerujem da me voliš ali to nije tako, mene samo bude strah da ne izgubim ovo, jer nikad takvo nešto nisam osjetila.
+ <br>
+ Tvoja dobrota je zarazna i zahvaljujući tebi trudim se svaki dan biti što bolja verzija sebe. Inspirira me tvoj trud i energija.
+ <br>
+Mogla bih te slušat kako mi objašnjavaš nešto do kraja života. Dapaće želim gledat taj osmjeh i te oći do kraja života.
+<br>
+Neznam jesam li ti ikad rekla, ali osječam se tako sigurno u tvojem zagrljaju,kao da mi ni metak ništa ne može.
+<br>
+ Tvoje ruke moje su utočište od ovog ružnog svijeta. Nadam se da ti je ljepo samnom i da ću te još dugo moći gnjaviti.
+ <br>
+ Želim te učini najsretnijim čovjekom jer ti upravo to činiš meni. Tako mi nedostaješ. Nedostaju mi tvoji zagrljaji, poljupci, dodiri , tvoj miris.
+ <br>
+Kad bi samo mogao vidjei sebe mojim oćima, tada bi znao koliko mi značiš. Hvala ti na prilici , što imam čast biti tvoja cura.
+<br>
+Što god bilo među nama uvijek ću te pamtiti kao nešto najljepše što mi se dogodilo u životu. Zahvaljujući tebi poćela sam prihvačati sebe, nikad se do sad nisam osjecala dovolno vrijednom.
+<br>
+ Hvla što me trpiš i moje ispade tuge i straha. Znam da ti nekad nije lako samnom, znam da me teško razumjeti i voljeti, ali znaj da me najbolje razumiješ od svih ljudi koje poznajem.
+ <br>
+Dala bih sve što imam, kad bi mogla vječno uživati utvojoj blizini ali znam da je to sebična želja. Stoga nadam se da ću što duže imati tu privilegiju.
+<br>
+VOLIM TE!
+(Whos crying, not me!:'))</p>
+<br>
+<br>
+<br>
+</section>
+
+<!--dan osmi--->
+
+<section id="dan8">
+  <h2>13.12.2020. Dan osmi</h2>
+  <h3> TV-vodič (movies/series to watch)</h3>
+
+<div class="column">
+  HBO-serija "EUPHORIA"
+  <br>
+  <img src="img3.jpg" width="" height="">
+  <br>
+  <a href="https://www.youtube.com/watch?v=ziMUD0_TTg0">trailer</a>
+</div>
+
+<div class="column">tron
+  film "ON THE BASIS OF SEX"
+  <br>
+  <img src="img1.jpeg" width="" height="">
+  <br>
+  <a href="https://www.youtube.com/watch?v=28dHbIR_NB4&list=PLrSDLCBXj1Wh6Gt7xof-aeOdJV1xkD7J7&index=19&t=0s">trailer</a>
+</div>
+
+<div class="column">
+  film "Tron"/"Ton(legacy)""
+  <br>
+<img src="img2.jpg" width="" height="">
+<br>
+  <a href="https://www.youtube.com/watch?v=L9szn1QQfas">trailer</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</section>
+
+<!--dan deveti--->
+
+<section id="dan9">
+
+<h2>.</h2>
+
+  <h3> 14.12.2020. Dan deveti
+    <br>
+    <br>
+    10 stvari koje volim na tebi</h3>
+
+  <ul>
+    <li>1. Tvoj osmjeh</li>
+    <li>2. Tvoje oći i male bore oko njih</li>
+    <li>3. Tvoj zagrljaj</li>
+    <li>4. Tvoj miris</li>
+    <li>5. Kako trepčeš dok razmilaš</li>
+    <li>6. Kako prebciš nogu preko mene dok me maziš</li>
+    <li>7. Tvoje meke usne </li>
+    <li>8. Tvoje poljupce i kako me privučeš bliže</li>
+    <li>9. Kako me paziš dok šetamo</li>
+    <li>10. Kad se lupiraš u mojoj odjeći </li>
+  </ul>
+
+  <br>
+  <br>
+  <br>
+</section>
+
+<!--dan deseti--->
+
+<section id="dan10">
+  <h2>15.12.2020. Dan deseti</h2>
+  <h3>Zadnji dan </h3>
+  <p>Priča staje ovdje. Nažalost nisam u mogučnosti više šutit o ovome. Ti si neizvjestan a ja tesko sutim o poklonima hahah.
+  Htjela bih ti još samo reći koliko sm ti zahvalna što postojiš i što imam prliku biti ovdje. Nadam se da će ti se svidjeti ovaj uranjeli dio poklona. :*</p>
+  <br>
+  <br>
+  <br>
+</section>
+
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Povratak gore</button>
+
+<footer> By: Franciska Kocifaj</footer>
+  </body>
+</html>
